@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+
+    background-size: cover;
+    height: 92vh;
+
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #0747C1;
+    height: 10vh;
+}
+
+.h1home {
+    color: white;
+    align-items: center;
+    margin-left: 800px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.imgh {
+    display: flex;
+    align-items: center;
+
+}
+
+.produtosh {
+    display: block;
+    background-color: #0747C1;
+}
+
+.img1 {
+    margin-right: 200px;
+}
+
+
+.img2 {
+    margin-left: 200px;
+}
+
+
+
+.botaoenv {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+.tytleprodutos {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+.produto p {
+    color: black;
+    padding: 5px;
+    font-family: sans-serif;
+    text-align: center;
+
+
+
+}
+
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.img123 {
+    width: 80%;
+
+}
+
+
+
+#produtos2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+
+
+}
+
+.botao1 {
+    margin-left: 200px;
+
+
+}
+
+.teste12345 {
+    padding-bottom: 5px;
+    background-color: rgb(51, 4, 114);
+    box-shadow: 30cm;
+    border-radius: 50px;
+transition: transform .3s;
+margin: 30px;
+
+}
+
+.teste12345:hover {
+    transform: scale(1.1);
+}
+
+
+.Pfont {
+    font-size: 30px;
+    
+}
+
+.Pfont p {
+    color: white;
+    
+}
+.fontpt{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.fontpt p{
+    color: white;
+}
+
+.mat-raised-button{
+    background-color: rgb(0, 152, 0);
+    color: aliceblue;
+    margin-left: 200px;
+    
+    
+}
+

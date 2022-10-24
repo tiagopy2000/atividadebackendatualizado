@@ -1,0 +1,35 @@
+.footer{
+ 
+    
+    justify-content: center;
+    height: 40vh;
+    background-color: rgb(51, 4, 114);
+
+}
+
+.footer h1{
+    color: white;
+    padding: 30px;
+    margin: 50px;
+}
+
+
+
+.rede img{
+    height: 60px;
+    margin: 10px;
+}
+.loc{
+    padding: 0 50px;
+}
+.loc span{
+    text-align: center;
+    color: white;
+    margin: 80px;
+    padding: 10px;
+}
+
+.loc iframe{
+height:250px ;
+width: auto;
+}

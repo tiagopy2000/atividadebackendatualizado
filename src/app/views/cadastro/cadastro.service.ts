@@ -29,13 +29,18 @@ export class CadastroService {
   }
 
   readById(id: number): Observable<CadastroModel>{
-    const url ='${this.baseUrl}/${id}'
+    const url =`${this.baseUrl}/${id}`
     return this.http.get<CadastroModel>(url)
   }
 
   updateCadastro(cadastro: CadastroModel): Observable<CadastroModel>{
-    const url ='${this.baseUrl}/${cadastro.id}'
+    const url =`${this.baseUrl}/${cadastro.id}`
     return this.http.put<CadastroModel>(url, cadastro)
+  }
+
+  deleteCadastro(id: number): Observable<CadastroModel>{
+   const url = `${this.baseUrl}/${id}`
+    return this.http.delete<CadastroModel>(url)
   }
 
 }

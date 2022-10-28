@@ -14,12 +14,12 @@ export class CadastroCreateComponent implements OnInit {
     usuario:'',
     senha: ''
   }
-  constructor(private CadastroService: CadastroService, private Router: Router) { }
+  constructor(private CadastroService: CadastroService, private router: Router) { }
 
   ngOnInit(): void {
   }
   
-   createcadastro(): void{
+   createCadastro(): void{
     if (this.cadastro.usuario.includes("'") || this.cadastro.usuario.includes('"') || this.cadastro.usuario.includes("="))
     {
       alert ("caracter não permitido")
@@ -28,12 +28,13 @@ export class CadastroCreateComponent implements OnInit {
         this.CadastroService.showMessege('usuario cadastrado!')
          })
     }
+   }
 
+   cancelarCadastro(): void{
+    this.router.navigate(['/cadastro/tabela'])
    }
-   cancelarcadastro(): void{
-    this.Router.navigate([''])
-   }
-   tabelascadastro(): void{
-    this.Router.navigate(['/cadastro/tabela'])
+
+   tabelaCadastro(): void{
+    this.router.navigate(['/cadastro/tabela'])
    }
 }
